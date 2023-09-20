@@ -42,3 +42,10 @@ function sendMessage() {
 
   appendToList(message);
 }
+
+messageInput.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    sendMessage();
+  }
+});
