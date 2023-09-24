@@ -8,7 +8,7 @@ Let's begin by understanding why this topic matters in today's digital landscape
 ### JavaScript Global Summit 2023
 
 ```
-node server.js
+$ node server.js
 Server running 8000...
 Client connected
 Client disconnected.
